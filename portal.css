@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+section{
+    margin: 50px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.section-header{
+    padding: 30px;
+    width: 100%;
+    height:7vh;
+    background-color: rgb(118, 63, 113);
+}
+.section-header h1{
+    color: white;
+}
+
+.sub-section-flex-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.flex-left-container{
+    width: 50%;
+    height: 60vh;
+    background-color: rgb(118, 63, 113);
+}
+.background-colour{
+    height: 100vh;
+    background-color: rgb(118, 63, 113);
+}
+.flex-right-container{
+    padding: 30px;
+    margin-left: 10px;
+    width: 50%;
+    justify-content: space-between;
+    background-color: rgb(245, 245, 245);
+}
+.flex-right-container h2{
+    margin: 5px;
+    font-size: 10px;text-align: left;
+    text-transform: uppercase;
+    color: black;
+}
+.sub1-flex-right-container{
+    padding: 10px 0 5px 0;
+    display: flex;
+}
+input[type=text]{
+    margin: 0 0 0 10px;
+    width:50%;
+    height: 10px;
+}
+.sub2-flex-right-container{
+    display: flex;
+}
+.flex-right-container h3{
+    margin: 5px;
+    font-size: 10px;text-align: left;
+    text-transform: uppercase;
+    color: rgb(118, 63, 113);
+}
+.container-header-1{
+    padding: 4px;
+    width: 100%;
+    height:5vh;
+    background-color: rgb(118, 63, 113);
+}
+.container-header-1 h4{
+    color: rgb(255, 255, 255);
+}
+.sub3-container{
+    display: flex;
+}
+.check-box-flex{
+    display: flex;
+}
+.second-flex{
+    padding: 5px 0;
+}
+.sub-option-container{
+    padding: 45px 0 0 0;
+}
+.sub-percentage-container{
+    padding: 15px 0 0 0;
+}
+.sub-percentage-container ul li{
+    padding: 5px 0;
+    list-style: none;
+}
+.riders-section-container{
+    display: flex;
+}
+.riders-sub-section-container{
+    display: flex;
+    align-items: center;
+}
+.extra-padding-sub1-flex-right-container{
+    justify-content: space-evenly;
+}
+.medical-history-container{
+    width: 100%;
+    height: 40vh;
+    border: 0.5px solid rgb(101, 101, 101);
+    display: flex;
+}
+.sub1-medical-container{
+    
+    width: 33%;
+    height: 30vh;
+    background-color: rgb(203, 154, 154);
+}
+.sub2-medical-container{
+    width: 33%;
+    height: 30vh;
+    background-color: rgb(196, 133, 133);
+}
+.sub3-medical-container{
+    width: 34%;
+    height: 30vh;
+    background-color: rgb(200, 120, 120);
+}
+#customers{
+    border: 1px solid black;
+}
+#customers td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#customers th:nth-child(1){
+    color: black;
+    width: 50%;
+    background-color: #f2f2f2;
+}
+#customers th:nth-child(2){
+    border: 1px solid black;
+    color: black;
+    width: 10%;
+    background-color: #f2f2f2;
+}
+#customers th:nth-child(3){
+    color: black;
+    width: 20%;
+    background-color: #f2f2f2;
+}
+#customers th:nth-child(4){
+    color: black;
+    width: 20%;
+    background-color: #f2f2f2;
+}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
