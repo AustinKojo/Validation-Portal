@@ -41,12 +41,15 @@ section{
     background-color: rgb(245, 245, 245);
 }
 .flex-right-container h2{
+    padding-right: 20px;
     margin: 5px;
-    font-size: 10px;text-align: left;
+    font-size: 10px;
+    text-align: left;
     text-transform: uppercase;
     color: black;
 }
 .sub1-flex-right-container{
+    align-items: center;
     padding: 10px 0 5px 0;
     display: flex;
 }
@@ -56,6 +59,7 @@ input[type=text]{
     height: 10px;
 }
 .sub2-flex-right-container{
+    align-items: center;
     display: flex;
 }
 .flex-right-container h3{
@@ -124,42 +128,58 @@ input[type=text]{
     height: 30vh;
     background-color: rgb(200, 120, 120);
 }
-#customers{
-    border: 1px solid black;
+
+.header-container{
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+    background-color: rgb(87, 39, 87);
 }
-#customers td {
-    border: 1px solid #ddd;
-    padding: 8px;
+.container-1{
+    margin: 10px 0;
+    border: 0.1px 0.1px 0 0.1px solid black;
 }
-  
-#customers th:nth-child(1){
-    color: black;
+.mini-sub-container-1{
+    margin: 10px;
+    align-items: center;
+    padding: 4px;
+    height: 5vh;
+    display: flex;
+}
+.display-block{
+    display: block;
+}
+.resul-container-1{
+    padding: 20px;
+}
+.results-sub-header{
+    display: flex;
+}
+ input[type=text]{
     width: 50%;
-    background-color: #f2f2f2;
+    height: 10px;
+    margin: 10px;
 }
-#customers th:nth-child(2){
-    border: 1px solid black;
-    color: black;
-    width: 10%;
-    background-color: #f2f2f2;
+input[type=checkbox], h3{
+    margin: 5px;
 }
-#customers th:nth-child(3){
-    color: black;
-    width: 20%;
-    background-color: #f2f2f2;
+.input-flexer{ 
+    width: 50%;
 }
-#customers th:nth-child(4){
-    color: black;
-    width: 20%;
-    background-color: #f2f2f2;
+.container-1{
+    display: flex;
 }
-  
-  #customers tr:hover {background-color: #ddd;}
-  
-  #customers th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #04AA6D;
-    color: white;
-  }
+.sub-container-2{
+    width: 40%;
+    border: 0.1px 0 0 0 solid black;
+}
+/*.sub-container-2 h2{
+}*/
+.row-sub-container{
+    padding: 10px;
+    height: 4vh;
+    border: 0.1px solid black;
+}
+.results-container{
+    display: flex;
+}

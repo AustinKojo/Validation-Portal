@@ -62,11 +62,15 @@
                  <div class="sub1-flex-right-container">
                     <div class="check-box-flex">
                         <h3>Male</h3>
-                    <input type="checkbox">
+                        <!-- <input type="checkbox" name="myCheckbox1" value="1" onclick="selectOnlyThis(this)" /> -->
+                        <input type="checkbox" class="checkoption" value="1" onclick="checkedOnClick(this);">
+
                     </div>
                     <div class="check-box-flex">
                         <h3>Female</h3>
-                    <input type="checkbox">
+                        <!-- <input type="checkbox" name="myCheckbox1" value="2" onclick="selectOnlyThis(this)"/> -->
+                        <input type="checkbox" class="checkoption" value="2" onclick="checkedOnClick(this);">
+
                     </div>
                 </div>
                </div>
@@ -76,19 +80,27 @@
                <div class="sub1-flex-right-container">
                   <div class="check-box-flex">
                       <h3>Single</h3>
-                  <input type="checkbox">
+                      <!-- <input type="checkbox" name="myCheckbox" value="3" onclick="selectOnlyThis(this)" /> -->
+                      <input type="checkbox" class="checkoption" value="1" onclick="checkedOnClick(that);">
+
                   </div>
                   <div class="check-box-flex">
-                      <h3>Maried</h3>
-                  <input type="checkbox">
+                      <h3>Married</h3>
+                      <!-- <input type="checkbox" name="myCheckbox" value="2" onclick="selectOnlyThis(this)" /> -->
+                      <input type="checkbox" class="checkoption" value="1" onclick="checkedOnClick(that);">
+
                   </div>
                   <div class="check-box-flex">
                     <h3>Divorced</h3>
-                <input type="checkbox">
+                    <!-- <input type="checkbox" name="myCheckbox" value="3" onclick="selectOnlyThis(this)" /> -->
+                    <input type="checkbox" class="checkoption" value="1" onclick="checkedOnClick(that);">
+
                 </div>
                 <div class="check-box-flex">
                     <h3>Widowed</h3>
-                <input type="checkbox">
+                    <!-- <input type="checkbox" name="myCheckbox" value="4" onclick="selectOnlyThis(this)" /> -->
+                    <input type="checkbox" class="checkoption" value="1" onclick="checkedOnClick(that);">
+
                 </div>
               </div>
              </div>
@@ -547,7 +559,7 @@
             <h4>Medical history</h4>
         </div>
 
-        <table id="customers">
+        <!--<table id="customers">
             <tr>
               <th>Details</th>
               <th>Year</th>
@@ -615,17 +627,467 @@
               <td>Marie Bertrand</td>
               <td>France</td>
             </tr>
-          </table>
-
-      
-
-
-
-         
+          </table>--->
         
+           <div class="container-1">
+            <div class="sub-container-1">
+                <div class="mini-sub-container-1">
+                    <h2>Have any of the following? <br> If yes, provide details</h2>
+        
+                </div>
+                
+                <div class="mini-sub-container-1">
+                    <div class="input-flexer">
+                      <h2>Asthma, persistent cough, etc.</h2>
+                      <input type="text">
+                    </div>
+                    <h3>Yes</h3>
+                    <input type="checkbox">
+                    <h3>No</h3>
+                    <input type="checkbox">
+                </div>
+                <div class="mini-sub-container-1">
+                    <div class="input-flexer">
+                      <h2>Fits of diziness, paralysis, etc.</h2>
+                      <input type="text">
+                    </div>
+                    <h3>Yes</h3>
+                    <input type="checkbox">
+                    <h3>No</h3>
+                    <input type="checkbox">
+                </div>
+                <div class="mini-sub-container-1">
+                    <div class="input-flexer">
+                      <h2>Diabetes Miletus</h2>
+                      <input type="text">
+                    </div>
+                    <h3>Yes</h3>
+                    <input type="checkbox">
+                    <h3>No</h3>
+                    <input type="checkbox">
+                </div>
+                <div class="mini-sub-container-1">
+                    <div class="input-flexer">
+                      <h2>Rheumatism, scatia, etc.</h2>
+                      <input type="text">
+                    </div>
+                    <h3>Yes</h3>
+                    <input type="checkbox">
+                    <h3>No</h3>
+                    <input type="checkbox">
+                </div>
+                <div class="mini-sub-container-1">
+                    <div class="input-flexer">
+                      <h2>Skin disease tumor, etc.</h2>
+                      <input type="text">
+                    </div>
+                    <h3>Yes</h3>
+                    <input type="checkbox">
+                    <h3>No</h3>
+                    <input type="checkbox">
+                </div>
+                <div class="mini-sub-container-1">
+                    <div class="input-flexer">
+                      <h2>Disorder of the eyes, throat, etc.</h2>
+                      <input type="text">
+                    </div>
+                    <h3>Yes</h3>
+                    <input type="checkbox">
+                    <h3>No</h3>
+                    <input type="checkbox">
+                </div>
+                <div class="mini-sub-container-1">
+                    <div class="input-flexer">
+                      <h2>Diagnostic test such as X-ray, etc.</h2>
+                      <input type="text">
+                    </div>
+                    <h3>Yes</h3>
+                    <input type="checkbox">
+                    <h3>No</h3>
+                    <input type="checkbox">
+                </div>
+                <div class="mini-sub-container-1">
+                    <div class="input-flexer">
+                      <h2>Bilharzia?</h2>
+                      <input type="text">
+                    </div>
+                    <h3>Yes</h3>
+                    <input type="checkbox">
+                    <h3>No</h3>
+                    <input type="checkbox">
+                </div>
+                <div class="mini-sub-container-1">
+                    <div class="input-flexer">
+                      <h2>Any surgical operation, accident or severe injury, etc.</h2>
+                      <input type="text">
+                    </div>
+                    <h3>Yes</h3>
+                    <input type="checkbox">
+                    <h3>No</h3>
+                    <input type="checkbox">
+                </div>
+                
+        
+            </div>
+            <div class="sub-container-2">
+                <div class="mini-sub-container-1">
+                    <h2>Year</h2>
+                </div>
+                
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+            </div>
+            <div class="sub-container-2">
+                <div class="mini-sub-container-1"> <h2>Clin/Hosp</h2></div>
+                <div class="row-sub-container">
+                    <input type="text">
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+                <div class="row-sub-container">
+                    <input type="text">
+                    
+                </div>
+            </div>
+            <div class="sub-container-2">
+                <div class="mini-sub-container-1 display-block">
+                    <h2>Results</h2>
+                    <div class="results-sub-header">
+                        <h2>Treated & Discharged</h2>
+                        <h2>Undergoing treatment</h2>
+                    </div>
+                </div>
+                <div class="results-container">
+                    <div class="sub-container-2">
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                    </div>
+                    <div class="sub-container-2">
+                        
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                        <div class="row-sub-container">
+                            <input type="checkbox">
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+           </div>
 
         
     </div>
+    <div class="mini-sub-container-1">
+        <div class="sub1-flex-right-container">
+            <h2>Are you currently taking any medication?</h2>
+            <input type="text">
+        </div>
+        <h3>Yes</h3>
+        <input type="checkbox">
+        <h3>No</h3>
+        <input type="checkbox">
+        <div class="sub1-flex-right-container">
+            <h2>If yes, state what type of medication and dosage</h2>
+            <input type="text">
+        </div>
+    </div>
+    <div class="mini-sub-container-1">
+        <div class="sub1-flex-right-container">
+            <h2>Are you taking any alcoholic drinks?</h2>
+            <input type="text">
+        </div>
+        <h3>Yes</h3>
+        <input type="checkbox">
+        <h3>No</h3>
+        <input type="checkbox">
+        <div class="sub1-flex-right-container">
+            <h2>If yes, state weekly consumption</h2>
+            <input type="text">
+        </div>
+    </div>
+    <div class="mini-sub-container-1">
+        <div class="sub1-flex-right-container">
+            <h2>Do you smoke cigarettes?</h2>
+            <input type="text">
+        </div>
+        <h3>Yes</h3>
+        <input type="checkbox">
+        <h3>No</h3>
+        <input type="checkbox">
+        <div class="sub1-flex-right-container">
+            <h2>If yes, how many sticks a day?</h2>
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="container-header-1">
+        <h4>Insurance History (Please tick Yes/No)</h4>
+    </div>
+    <div class="flex-right-container">
+
+        <div class="sub2-flex-right-container">
+            <h2>Do you have any life assurance policy?</h2>
+           <div class="sub1-flex-right-container">
+              <div class="check-box-flex">
+                  <h3>Yes</h3>
+              <input type="checkbox">
+              </div>
+              <div class="check-box-flex">
+                  <h3>No</h3>
+              <input type="checkbox">
+              </div>
+          </div>
+        </div>
+        <div class="sub1-flex-right-container">
+            <h2>If yes, list companies and sums assured</h2>
+            <input type="text">
+            <input type="text">
+        </div>
+        <div class="sub2-flex-right-container">
+            <h2>Have you ever been refused life assurance, Your application deferred or had special terms imposed on it ??</h2>
+           <div class="sub1-flex-right-container">
+              <div class="check-box-flex">
+                  <h3>Yes</h3>
+              <input type="checkbox">
+              </div>
+              <div class="check-box-flex">
+                  <h3>No</h3>
+              <input type="checkbox">
+              </div>
+          </div>
+        </div>
+        <div class="sub2-flex-right-container">
+            <h2>How would you like to receive your policy certificate?</h2>
+           <div class="sub1-flex-right-container">
+              <div class="check-box-flex">
+                  <h3>Yes</h3>
+              <input type="checkbox">
+              </div>
+              <div class="check-box-flex">
+                  <h3>No</h3>
+              <input type="checkbox">
+              </div>
+          </div>
+        </div>
+        <div class="sub1-flex-right-container">
+            <h2>If yes, list companies and sums assured</h2>
+            <input type="text">
+        </div>
+       
+    </div>
+
+    <div class="container-header-1">
+        <h4>Declaration</h4>
+    </div>
+    <div class="sub1-flex-right-container">
+        <h2>Language</h2>
+        <input type="text">
+    </div>
+    <div class="sub1-flex-right-container">
+        <h2>Explained by</h2>
+        <input type="text">
+    </div>
+    <div class="sub1-flex-right-container">
+        <h2>Proposer's Date</h2>
+        <input type="text">
+    </div>
+    <div class="sub1-flex-right-container">
+        <h2>Sales Executive Name</h2>
+        <input type="text">
+    </div>
+    <div class="sub1-flex-right-container">
+        <h2>AGT No.</h2>
+        <input type="text">
+    </div>
+    <div class="sub1-flex-right-container">
+        <h2>Sale's Manager's Name</h2>
+        <input type="text">
+    </div>
+    <div class="sub1-flex-right-container">
+        <h2>Sale's manager's name</h2>
+        <input type="text">
+    </div>
+    <div class="sub1-flex-right-container">
+        <h2>Sales's manager's date</h2>
+        <input type="text">
+    </div>
+    <div class="sub1-flex-right-container">
+        <h2>Branch manager's name</h2>
+        <input type="text">
+    </div>
+    <div class="sub1-flex-right-container">
+        <h2>Zonal manager's name</h2>
+        <input type="text">
+    </div>
+    <div class="sub2-flex-right-container">
+        <h2>I hereby consent to the processing of personal data for the purposes of targeted and direct marketing.</h2>
+       <div class="sub1-flex-right-container">
+          <div class="check-box-flex">
+              <h3>Yes</h3>
+          <input type="checkbox">
+          </div>
+          <div class="check-box-flex">
+              <h3>No</h3>
+          <input type="checkbox">
+          </div>
+      </div>
+    </div>
+    <div class="sub2-flex-right-container">
+        <h2>I hereby consent to the processing of my personal data for business relationship and further, etc.</h2>
+       <div class="sub1-flex-right-container">
+          <div class="check-box-flex">
+              <h3>Yes</h3>
+          <input type="checkbox">
+          </div>
+          <div class="check-box-flex">
+              <h3>No</h3>
+          <input type="checkbox">
+          </div>
+      </div>
+    </div>
+
+
+     
 
     
 
@@ -633,5 +1095,7 @@
 </section>
 
 
+
+<script src="portal.js"></script>
 </body>
 </html>
